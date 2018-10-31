@@ -1,0 +1,32 @@
+body {
+margin: 0;
+background-color: aqua;
+}
+
+.square{
+    width:  400px;
+    height: 400px;
+    background-color: rgba(0,0,0,0,1.);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    border-radius: 50%;
+}
+
+.quote, .author{
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.top{
+    margin: 60px 60px 0 60px;
+    border-bottom: ipx solid rgba(0,0,0,0,8.);
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+
+}
